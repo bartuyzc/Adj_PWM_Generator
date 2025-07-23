@@ -4,6 +4,7 @@ In this top level design, we connect the debouncing filter to the inputs, howeve
 <img width="975" height="416" alt="image" src="https://github.com/user-attachments/assets/2ba6cc4d-8216-46d4-9e21-eb3493c6836d" />
 ## PWM Generator
 Simulate this module for better and accurate results.
+
 <img width="445" height="325" alt="image" src="https://github.com/user-attachments/assets/80624724-86a3-4545-aa72-39301c68155a" />
 
 • inc_duty / dec_duty: Changes the duty time duration by changing ACTIVE register and step size is 5%.
