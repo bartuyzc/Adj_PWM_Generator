@@ -10,8 +10,7 @@ Simulate this module for better and accurate results.
 - `inc_duty` / `dec_duty`: Changes the duty time duration by changing `ACTIVE` register. Step size is 5%.
 - `inc_freq` / `dec_freq`: Manages the changes with selecting period values from look-up-table. Step size is approximately 100 KHz.  
   (When we reach the higher frequencies, our sensitivity faces some scaling issues due to the fact that changes become roughly 100 KHz.)
-- `mode_select`:  
-  `0`: edge-aligned / `1`: center-aligned
+- `mode_select`:  `0`: edge-aligned / `1`: center-aligned
 - `rst`: The design uses a common reset signal for each module, which drives the outputs to `'0'`.
 - `clk`: This one is also common for the system, and I’ve chosen 40 ns for the operating period.
 
